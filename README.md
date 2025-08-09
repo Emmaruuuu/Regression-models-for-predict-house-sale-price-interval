@@ -1,10 +1,10 @@
 # Regression-models-for-predict-house-sale-price-interval
 Create a regression model for a house sale price having the narrowest overall prediction intervals.
 
-Untuk menentukan prediksi interval harga rumah, saya melakukan beberapa kali percobaan menggunakan model regressi yang berbeda, dan mendapatkan hasil yang berbeda-beda pula.
+To determine the house price prediction interval, I conducted several experiments using different regression models, and obtained different results.
 
-Saya mengerjakan projek ini dengan mencoba beberapa model yaitu Ridge Regression Model, LightGBM Regressor, Catboost Regressor, Quantille Catboost, Quantille Multilayer Perceptron (MLP) neural network, dan Stacking Quantille dengan Base model Catboost dan LGBM serta Ridge sebagai meta modelnya. 
-Berikut adalah rincian hasil public score Kaggle dari model regressi yang saya lakukan :
+I worked on this project by trying several models, namely Ridge Regression Model, LightGBM Regressor, Catboost Regressor, Quantille Catboost, Quantille Multilayer Perceptron (MLP) neural network, and Stacking Quantille with Catboost and LGBM Base models and Ridge as the meta model.
+Here are the details of the Kaggle public score results from the regression model I did:
 1. Ridge Regressor : 814837.49
 2. LightGBM : 727019.68
 3. Catboost : 667798.10
@@ -12,7 +12,7 @@ Berikut adalah rincian hasil public score Kaggle dari model regressi yang saya l
 5. Quantille NN (MLP) : 5433819.18
 6. Stacking Quantille : 544888.61
 
-Karena score yang terbaik adalah terhitung dengan score yang terkecil, maka dengan percobaan ini, model yang paling efektif dan terbaik dari semua model yang saya coba adalah Quantille Catboost Model dengan besar score yaitu 457291.92.
+Since the best score is calculated using the smallest score, based on this experiment, the most effective and best model out of all the models I tried is the Quantile Catboost Model with a score of 457291.92
 
 
 Reference : 
