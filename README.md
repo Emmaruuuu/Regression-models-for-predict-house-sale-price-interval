@@ -19,7 +19,7 @@ Here are the details of the Kaggle public score results from the regression mode
 5. Quantille NN (MLP) : 5433819.18
 6. Stacking Quantille : 544888.61
 
-Since the best score is calculated using the smallest score, based on this experiment, the most effective and best model out of all the models I tried is the Quantile Catboost Model with a score of 457291.92
+Since the best score is calculated using the smallest score, based on this experiment, the most effective and best model out of all the models I tried is the Quantile Catboost Model with the results of RMSE: 113859.8960, R2: 0.9258, Coverage: 93.21% and WIS: 1922371.4223 and a kaggle score of 457291.92
 
 Reference : 
 https://www.kaggle.com/competitions/prediction-interval-competition-ii-house-price/submissions#
